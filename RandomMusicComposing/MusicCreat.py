@@ -32,7 +32,7 @@ class Music():
         self.seq_perc = rules["seq_perc"]  # 读取击打乐规则
         self.velocity = rules["velocity"]  # 读取速率
 
-        self.notes = rules["notes"]
+        self.notes = rules["note"]
         self.interval_upper = rules["interval_upper"]
         self.interval_lower = rules["interval_lower"]
 
