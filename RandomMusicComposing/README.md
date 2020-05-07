@@ -4,7 +4,7 @@
 使用的库：
 
 ```python
-from midiutil.MidiFile import MIDIFile
+from midiutil.MidiFile import MIDIFile # 这个库只能生成midi不能解析midi
 ```
 
 官网介绍：https://www.emergentmusics.org/midiutil-class-reference
