@@ -3,9 +3,7 @@ from mido import Message, MidiFile, MidiTrack, MetaMessage
 import json
 
 def main():
-    # loadFile("Music/憧憬と屍の道-进击的巨人第三季OP2 .mid")
-    # saveJson(loadMidi("Music/Astronomia-黑人抬棺.mid"), "黑人抬棺")
-    creatMidi("rules/黑人抬棺.json", "15_黑人抬棺")
+    creatMidi("rules/下山.json", "15_下山")
 
 def creatMidi(jsonPath, fileName):
     j = open(jsonPath, "r")

@@ -72,10 +72,10 @@ def loadMidi(FilePath):
         print("Track{}:{}".format(i, track.name))
         music["Track{}".format(i)] = {  # 每个轨道主要内容
             "time_signature": [],       # 音乐主要元数据
-            "set_tempo": [],
-            "program_change": [],             # 音符结束信号
+            "set_tempo": [],            # 节拍分辨率：默认500000微秒一拍，即120拍每分钟
+            "program_change": [],       # 音符结束信号
             "key_signature": [],        # 音调信号
-            "note": [],              # 音符信号
+            "note": [],                 # 音符信号
         }
         for msg in track:
             print(msg)
